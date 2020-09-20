@@ -21,3 +21,8 @@ class Dog
     @name
   end
 end
+
+lassie = Dog.new("Collie", "woof")
+ 
+puts lassie.bark
+puts lassie.name
