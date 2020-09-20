@@ -24,3 +24,20 @@ end
 
 fido = Dog.new("Fido")
 puts fido
+  
+
+
+class Dog
+  def initialize(name, bark = "woof!")
+    @name = name
+    @bark = bark
+  end
+ 
+  def bark=(bark)
+    @bark = bark
+  end
+ 
+  def bark
+    @bark
+  end
+end
