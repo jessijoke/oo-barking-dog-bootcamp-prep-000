@@ -21,3 +21,5 @@ class Dog
       @bark
     end
 end
+
+fido = Dog.new("Fido")
